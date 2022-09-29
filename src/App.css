@@ -1,38 +1,273 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Home Page */
+.home_main_container {
+  width: 100%;
+  height: auto;
+  /* background-color: azure; */
+  background: #f6f2ff;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.home_main_wrapper {
+  width: 375px;
+  height: auto;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 64px 27px 14px 27px;
+}
+.home_title_wrapper {
+  width: 283px;
+  height: 108px;
+  padding: 0px 42px;
+}
+.home_title_text {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #240d57;
+}
+.home_snapchat_text {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 41px;
+  text-align: center;
+
+  background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home_paragraph_wrapper {
+  width: 321px;
+  min-height: 36px;
+  margin-top: 16px;
+  /* background-color: red; */
+}
+.home_paragraph_text {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #4f4f4f;
+}
+
+.home_hero_img_wrapper {
+  width: auto;
+  height: fit-content;
+  /* background-color: blue; */
+  margin: 10px 0px 14px 0px;
+  background: url(./assets/heroimg.png);
+  filter: drop-shadow(0px 0px 17.6435px rgba(0, 0, 0, 0.05));
+  border-radius: 13.2326px;
+}
+.home_create_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 187px;
+  height: 50px;
+  background: linear-gradient(90deg, #8456ec 3.25%, #e87bf8 100%);
+  border-radius: 10px;
+}
+.home_text_link {
+  text-decoration: none;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: right;
+  color: #ffffff;
+}
+
+/* Create Event Page */
+
+.create_event_main_container {
+  width: 100%;
+  height: auto;
+  /* background-color: azure; */
+  background: #f6f2ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.create_event_main_erapper {
+  width: 375px;
+  height: auto;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 64px 27px 14px 27px;
+}
+
+.create_event_submit_button_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 187px;
+  height: 50px;
+  background: linear-gradient(90deg, #8456ec 3.25%, #e87bf8 100%);
+  border-radius: 10px;
+}
+.create_event_submit_button_wrapper_text_link {
+  text-decoration: none;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: right;
+  color: #ffffff;
+}
+.create_event_title_wrapper {
+  width: 283px;
+  height: 108px;
+  padding: 0px 42px;
+}
+.create_event_title_text {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #240d57;
+}
+.create_event_snapchat_text {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 41px;
+  text-align: center;
+
+  background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.create_event_paragraph_wrapper {
+  width: 321px;
+  min-height: 36px;
+  margin-top: 16px;
+  /* background-color: red; */
+}
+.create_event_paragraph_text {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #4f4f4f;
+}
+
+.file_upload_wrapper {
+  width: auto;
+  height: 50px;
+  /* background-color: red; */
+  margin: 20px 0px;
+}
+
+/* show_event page */
+
+.show_event_main_container {
+  width: 100%;
+  height: auto;
+  /* background-color: azure; */
+  background: #f6f2ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.show_event_main_wrapper {
+  width: 375px;
+  height: auto;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 90px;
+}
+.event_host_main_wrapper {
+  width: 327px;
+  height: 57px;
+  margin: 11px 0px 8px 0px;
+}
+.event_host_birthday_text {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  color: #240d57;
+}
+.event_host_birthday_name_text {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #828282;
+}
+.event_host_birthday_name_bold_text {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #828282;
+}
+.event_details_main_wrapper {
+  width: 327px;
+  height: 57px;
+  margin: 11px 0px 8px 0px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.event_details_icon_left_wrapper {
+  width: 48px;
+  height: 48px;
+  background: #ffffff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.event_details_inner_right_wrapper {
+  width: auto;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #240d57;
+  /* background-color: blue; */
+  margin-left: 20px;
 }
